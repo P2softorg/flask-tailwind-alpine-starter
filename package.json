@@ -11,7 +11,7 @@
     "about:build": "echo I am not even sure if this line is necessay anymore, since you should just setup watch",
     "build": "./node_modules/.bin/postcss ./static/src/main.css -o ./static/dist/main.css",
     "about:dev": "echo start flask server under watch mode",
-    "dev": "FLASK_APP=app.py FLASK_ENV=development flask run"
+    "dev": "flask run"
   },
   "author": "",
   "license": "ISC",
