@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, render_template
 from flask_assets import Bundle, Environment
 
 # Config
@@ -14,4 +14,4 @@ css.build()
 
 @app.route("/")
 def home():
-    return "Hello, Flask!"
+    return render_template("index.html")
