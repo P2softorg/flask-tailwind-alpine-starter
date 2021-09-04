@@ -15,5 +15,10 @@ The starting point for a flask application using Alpine.js for the minimal inter
 
 1) Get into your venv, for me it was `source venv/bin/activate` from the project folder
 
-2) `python -m flask run` to start development server locally
+2) Run `npm run dev` to start development server locally
 
+## External doc
+
+https://testdriven.io/blog/flask-htmx-tailwind/#tailwind-css
+
+https://davidtang.io/get-up-and-running-with-postcss-using-postcss-cli
